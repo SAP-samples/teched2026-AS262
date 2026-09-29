@@ -1,42 +1,27 @@
-# Exercise 2 - Exercise 2 Description
+# Exercise 2 - Configure your agent
 
-In this exercise, we will create...
+In this exercise, you will create your own agent and connect it to the planning area and the alert subscription.
 
-## Exercise 2.1 Sub Exercise 1 Description
+## Exercise 2.1: Create the agent in Manage AI Agents
 
-After completing these steps you will have created...
+After completing these steps you will have an active agent EMA_XX that is linked to HPAEMAGENT and the Capacity Overload subscription.
 
-1. Click here.
-<br>![](/exercises/ex2/images/02_01_0010.png)
+1. Open the app **Manage AI Agents** and choose **Create**.
+2. Enter the agent name **EMA_XX** (your number).
+3. As **Agent User**, select the business user that is subscribed to the Capacity Overload alert.
+   <!-- TODO: confirm whether participants select their own PLANNER_XX user or a shared agent user. -->
+4. Set **Expiry of Mitigation Proposals (Days)** to 30.
+5. On the **Planning Area** tab, add **HPAEMAGENT**.
+6. On the **Alert Subscription** tab, add **Capacity Overload Subscription** (alert name: Capacity Overload).
+7. Save and activate the agent.
 
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
-```
+**Expected result:** EMA_XX appears in the AI Agents list with status **Active**, one planning area (HPAEMAGENT) and one alert subscription. The **Agent Instruction** section is still empty; you fill it in Exercise 3.
 
-
-
-## Exercise 2.2 Sub Exercise 2 Description
-
-After completing these steps you will have...
-
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc = 0.
-    response->set_status( i_code = 200
-                     i_reason = 'Everything is fine').
-    RETURN.
-  ENDIF.
-
-```
-
-2.	Click here.
-<br>![](/exercises/ex2/images/02_02_0010.png)
+> [!NOTE]
+> **Why it matters:** The agent can only see alerts that its agent user is subscribed to, in the planning areas you assign. If the user, planning area and alert subscription do not line up, the agent finds nothing to work on.
 
 ## Summary
 
-You've now ...
+Now that you have an active agent, you will tell it how to analyse the alert.
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Continue to - [Exercise 3 - Upload and validate the agent instructions](../ex3/README.md)
