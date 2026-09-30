@@ -33,6 +33,8 @@ The requirements to follow the exercises in this repository are:
 
 ## Exercises
 
+### Exception Management Agent (EMA, system-triggered in SAP IBP)
+
 - [Getting Started](exercises/ex0/)
 - [Exercise 1 - Meet the alert](exercises/ex1/)
 - [Exercise 2 - Configure your agent](exercises/ex2/)
@@ -44,6 +46,24 @@ The requirements to follow the exercises in this repository are:
 - [Exercise 8 - Bonus exercises](exercises/ex8/)
     - [Exercise 8.1 - Change how the alert is analysed](exercises/ex8#exercise-81-change-how-the-alert-is-analysed)
     - [Exercise 8.2 - The packing line](exercises/ex8#exercise-82-the-packing-line)
+
+### Product Structure Optimizer Agent (interactive, in Joule)
+
+This is a separate, self-contained track that shows how to work with the Product Structure Optimizer Agent (`@Product Design Assistant`) in Joule to create and manage a Bill of Materials (BOM).
+
+- [Getting Started - Product Structure Optimizer Agent](exercises/pso/ex0/)
+- [Exercise 1 - Create a BOM from a file](exercises/pso/ex1/)
+- [Exercise 2 - Run sanity checks and enrich the BOM](exercises/pso/ex2/)
+- [Exercise 3 - Summarize, explode, and delete the BOM](exercises/pso/ex3/)
+
+### Product Data Maintenance Agent (interactive, in Joule)
+
+This is a separate, self-contained track that shows how to work with the Product Data Maintenance Agent in Joule to create and maintain product master data in bulk.
+
+- [Getting Started - Product Data Maintenance Agent](exercises/pdm/ex0/)
+- [Exercise 1 - Discover capabilities and create products from a file](exercises/pdm/ex1/)
+- [Exercise 2 - Extend products to a plant and classify them](exercises/pdm/ex2/)
+- [Exercise 3 - Search by classification, add German descriptions, and verify](exercises/pdm/ex3/)
 
 **IMPORTANT**
 
