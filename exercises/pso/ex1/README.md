@@ -10,12 +10,13 @@ After completing these steps you will have created a BOM from an uploaded file a
 
 1. Open **Joule**.
 2. Start a **new conversation**.
-3. Enter: `@Product Design Assistant Can you create a BOM?`
-4. The agent displays **3 different options** for creating a BOM. Choose **Upload a file**.
-5. **Drop the file** into the drop area.
+3. Type `@Product Design Assistant` and select the **Product Design Assistant** from the suggestions so that it is added as a tag.
+4. With the tag in place, enter your prompt: `Can you create a BOM?`
+5. The agent displays **3 different options** for creating a BOM. Choose **Upload a file**.
+6. **Drop the file** into the drop area.
    <!-- TODO: confirm the file name and format of the sample BOM file provided for the session. -->
-6. Press the button with the **send** icon to submit the file content to the agent.
-7. The agent displays the **extracted BOM data** and a quick reply to trigger the BOM creation. Choose the quick reply **Proceed to create BOM**.
+7. Press the button with the **send** icon to submit the file content to the agent.
+8. The agent displays the **extracted BOM data** and a quick reply to trigger the BOM creation. Choose the quick reply **Proceed to create BOM**.
 
 **Expected result:** The agent displays a **success message**, a **summary of the created BOM data** (header and components), and **options for next steps**.
 

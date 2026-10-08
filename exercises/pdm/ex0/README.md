@@ -2,7 +2,7 @@
 
 In this track, you will use the **Product Data Maintenance Agent** for the first time. Like the Product Structure Optimizer Agent, this agent is *interactive*: you talk to it in **Joule** and drive every step of the conversation. Unlike the Exception Management Agent (EMA), which is triggered by a system job, this agent works with you in real time to maintain product master data in bulk.
 
-Over three exercises you discover what the agent can do, create products from an Excel file, extend them to a plant, classify them, search them by classification, add German descriptions, and finally verify the results in the Fiori launchpad (FLP).
+Over three exercises you discover what the agent can do, create products from an Excel file, extend them to a plant, classify them, search them by classification, and add German descriptions - all without leaving Joule.
 
 <!-- TODO: confirm how the Product Data Maintenance Agent is invoked in Joule. The test script reaches it through the `@Product Design Assistant`; verify whether it is a separate @ mention. -->
 
@@ -47,7 +47,6 @@ flowchart LR
   C --> D[Classify with<br/>PUMP_TECH_DATA]
   D --> E[Search by<br/>classification]
   E --> F[Add German<br/>descriptions]
-  F --> G[Verify in FLP]
 ```
 
 The exercises follow this flow from left to right.

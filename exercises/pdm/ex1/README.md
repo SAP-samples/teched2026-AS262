@@ -10,8 +10,9 @@ After completing these steps you will know what the Product Data Maintenance Age
 
 1. Open **Joule**.
 2. Start a **new conversation**.
-3. Enter: `@Product Design Assistant What can the Product Data Maintenance Agent do?`
-4. The agent displays **information about its capabilities**.
+3. Type `@Product Design Assistant` and select the **Product Design Assistant** from the suggestions so that it is added as a tag.
+4. With the tag in place, enter your prompt: `What can the Product Data Maintenance Agent do?`
+5. The agent displays **information about its capabilities**.
 
 **Expected result:** The agent describes what it can do, such as creating products from a file, extending them to plants, classifying them, searching by classification, and maintaining descriptions.
 

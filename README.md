@@ -47,23 +47,23 @@ The requirements to follow the exercises in this repository are:
     - [Exercise 8.1 - Change how the alert is analysed](exercises/ex8#exercise-81-change-how-the-alert-is-analysed)
     - [Exercise 8.2 - The packing line](exercises/ex8#exercise-82-the-packing-line)
 
-### Product Structure Optimizer Agent (interactive, in Joule)
+### Product Design Assistant (interactive, in Joule)
 
-This is a separate, self-contained track that shows how to work with the Product Structure Optimizer Agent (`@Product Design Assistant`) in Joule to create and manage a Bill of Materials (BOM).
+These exercises show how to work with the `@Product Design Assistant` in Joule. They cover two scopes: the Product Structure Optimizer, for creating and managing a Bill of Materials (BOM), and the Product Data Maintenance Agent, for creating and maintaining product master data in bulk.
+
+**Product Structure Optimizer**
 
 - [Getting Started - Product Structure Optimizer Agent](exercises/pso/ex0/)
 - [Exercise 1 - Create a BOM from a file](exercises/pso/ex1/)
 - [Exercise 2 - Run sanity checks and enrich the BOM](exercises/pso/ex2/)
 - [Exercise 3 - Summarize, explode, and delete the BOM](exercises/pso/ex3/)
 
-### Product Data Maintenance Agent (interactive, in Joule)
-
-This is a separate, self-contained track that shows how to work with the Product Data Maintenance Agent in Joule to create and maintain product master data in bulk.
+**Product Data Maintenance Agent**
 
 - [Getting Started - Product Data Maintenance Agent](exercises/pdm/ex0/)
 - [Exercise 1 - Discover capabilities and create products from a file](exercises/pdm/ex1/)
 - [Exercise 2 - Extend products to a plant and classify them](exercises/pdm/ex2/)
-- [Exercise 3 - Search by classification, add German descriptions, and verify](exercises/pdm/ex3/)
+- [Exercise 3 - Search by classification and add German descriptions](exercises/pdm/ex3/)
 
 **IMPORTANT**
 

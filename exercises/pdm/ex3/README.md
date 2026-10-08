@@ -1,6 +1,6 @@
-# Exercise 3 - Search by classification, add German descriptions, and verify
+# Exercise 3 - Search by classification and add German descriptions
 
-In this exercise, you will find products by their classification values, add German descriptions to your newly created products, and verify everything in the Fiori launchpad (FLP).
+In this exercise, you will find products by their classification values and add German descriptions to your newly created products.
 
 The suggested starting point for this exercise is the end of Exercise 2, with your products created, extended and classified.
 
@@ -32,25 +32,8 @@ After completing these steps you will have added proposed German descriptions to
 > [!NOTE]
 > **Why it matters:** The agent proposes translations and shows them next to the English text before writing anything, so you can review the proposal. Nothing is added until you confirm with `Yes, please proceed`.
 
-## Exercise 3.3: Verify the results in the Fiori launchpad
-
-After completing these steps you will have confirmed, in the source app, everything the agent created and changed.
-
-1. Open the **Fiori launchpad (FLP)**.
-2. Open **any of the new products** and review:
-    - the created **header data**,
-    - the **descriptions** (English and German),
-    - the **classifications** and characteristic values,
-    - the **plant assignments** (plant 001).
-   <!-- TODO: confirm the FLP app used to display the product (for example Manage Product Master Data) and the navigation path. -->
-
-**Expected result:** The product in FLP shows the header data, the English and German descriptions, the PUMP_TECH_DATA classification with its characteristic values, and the extension to plant 001 - exactly as the agent reported in the conversation.
-
-> [!NOTE]
-> **Why it matters:** Verifying in the source app closes the loop: the agent worked entirely in Joule, but the data it created is real product master data that any other app or user can now see and use.
-
 ## Summary
 
-You have now discovered the agent's capabilities and used it to create products from a file, extend them to a plant, classify them, search them, translate their descriptions and verify the result in FLP - all through a conversation, with the human in control at every step.
+You have now discovered the agent's capabilities and used it to create products from a file, extend them to a plant, classify them, search them and translate their descriptions - all through a conversation in Joule, with the human in control at every step.
 
 Back to the [overview](../../../README.md)
