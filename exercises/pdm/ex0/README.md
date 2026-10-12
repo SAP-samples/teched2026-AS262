@@ -11,12 +11,12 @@ Over three exercises you discover what the agent can do, create products from an
 
 ## Session details
 
-<!-- TODO: fill in session ID, date and room, and the system URL. -->
+<!-- TODO: fill in the room, and the system URL. -->
 
 | Item | Value |
 | --- | --- |
-| Event | SAP TechEd Berlin 2026, hands-on session (session ID: TBD) |
-| Date and room | TBD |
+| Event | SAP TechEd Berlin 2026, hands-on session (session ID: AS262) |
+| Date and room | Wednesday, Oct 28, 3:30 PM - 5:30 PM CET (room: TBD) |
 | System | myXXXXXX (URL: TBD) |
 | Your user | PLANNER_XX, where XX is the number on your desk card |
 | Assistant | `@Product Design Assistant` (Product Data Maintenance Agent) in Joule |
@@ -28,8 +28,7 @@ Before you start, make sure that:
 
 - **Joule** is enabled and reachable for your user.
 - The `@Product Design Assistant` is available when you start a new conversation.
-- You have the sample Excel product file to upload in Exercise 1.
-  <!-- TODO: confirm the exact file name and format of the sample product file, then link it from exercises/pdm/ex1/files/. -->
+- The sample Excel product file [`turbine_assembly_products.xlsx`](../ex1/turbine_assembly_products.xlsx) is available in the Exercise 1 folder. You upload it in Exercise 1 as-is; no changes are needed.
 - The classification class **PUMP_TECH_DATA** and its characteristics (for example PUMP_TYPE and HOUSING_MATERIAL) exist in the system.
 - Plant **001** is available for product extension.
 

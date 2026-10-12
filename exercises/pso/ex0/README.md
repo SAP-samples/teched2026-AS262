@@ -9,12 +9,12 @@ Over three exercises you create a Bill of Materials (BOM) from a file, run sanit
 
 ## Session details
 
-<!-- TODO: fill in session ID, date and room, and the system URL. -->
+<!-- TODO: fill in the room, and the system URL. -->
 
 | Item | Value |
 | --- | --- |
-| Event | SAP TechEd Berlin 2026, hands-on session (session ID: TBD) |
-| Date and room | TBD |
+| Event | SAP TechEd Berlin 2026, hands-on session (session ID: AS262) |
+| Date and room | Wednesday, Oct 28, 3:30 PM - 5:30 PM CET (room: TBD) |
 | System | myXXXXXX (URL: TBD) |
 | Your user | PLANNER_XX, where XX is the number on your desk card |
 | Assistant | `@Product Design Assistant` (Product Structure Optimizer Agent) in Joule |

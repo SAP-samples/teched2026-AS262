@@ -24,8 +24,7 @@ After completing these steps you will know what the Product Data Maintenance Age
 After completing these steps you will have created a list of products from an uploaded Excel file.
 
 1. Enter: `create products from a file`
-2. **Drop the file** into the drop area.
-   <!-- TODO: confirm the file name and format of the sample product file provided for the session. -->
+2. **Drop the file** [`turbine_assembly_products.xlsx`](./turbine_assembly_products.xlsx) (located in this exercise folder) into the drop area. The file does not require any change and can be uploaded directly.
 3. The agent displays the **extracted product data field mappings** (the mapping of file columns to product fields).
 4. Enter: `Yes, please proceed`
 5. The agent displays the **extracted products**, their **classification status**, and possible next steps.
