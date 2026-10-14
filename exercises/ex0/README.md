@@ -4,11 +4,12 @@ In this session, you will use the Exception Management Agent (EMA 2.0) for the f
 
 ## Session details
 
-<!-- TODO: fill in session ID, date and room, and the system URL. -->
+<!-- TODO: fill in date and room, and the system URL. -->
 
 | Item | Value |
 | --- | --- |
-| Event | SAP TechEd Berlin 2026, hands-on session (session ID: TBD) |
+| Event | SAP TechEd Berlin 2026, hands-on workshop |
+| Session | AS262 - Explore autonomous product design and supply chain planning |
 | Date and room | TBD |
 | SAP IBP system | myXXXXXX (URL: TBD) |
 | Your user | PLANNER_XX, where XX is the number on your desk card |

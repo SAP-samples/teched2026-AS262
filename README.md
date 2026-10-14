@@ -1,15 +1,20 @@
-<!-- TODO: replace <SESSION-ID> with the TechEd session ID in the title, Description and Overview. -->
-# <SESSION-ID> - Hands-On: Exception Management Agent (EMA) in SAP IBP
+# AS262 - Explore autonomous product design and supply chain planning
+
+`Hands-on workshop`
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2026 session called <SESSION-ID> - Hands-On: Exception Management Agent (EMA) in SAP IBP.
+This repository contains the material for the SAP TechEd 2026 session called AS262 - Explore autonomous product design and supply chain planning. It covers two tracks: the Exception Management Agent (EMA) in SAP IBP and the Product Design Assistant in Joule.
 
 ## Overview
 
-This session introduces attendees to the Exception Management Agent (EMA 2.0) in SAP Integrated Business Planning (SAP IBP). EMA is a system-triggered agent: it picks up planning alerts, performs root-cause analysis, and writes insights and mitigation proposals back to SAP IBP. The planner stays in control of every decision.
+This session introduces attendees to two different kinds of AI agents. The exercises are organised into two independent tracks, and you can follow either one on its own:
 
-In the exercises you play a supply planner facing a Capacity Overload alert. You configure an agent, validate its instructions, run it with an application job, review the insights in your planner workspace, and trace the run in the application logs.
+### 1. Exception Management Agent (EMA) - system-triggered in SAP IBP
+
+The Exception Management Agent (EMA 2.0) in SAP Integrated Business Planning (SAP IBP) is a *system-triggered* agent: it picks up planning alerts, performs root-cause analysis, and writes insights and mitigation proposals back to SAP IBP. The planner stays in control of every decision.
+
+In this track you play a supply planner facing a Capacity Overload alert. You configure an agent, validate its instructions, run it with an application job, review the insights in your planner workspace, and trace the run in the application logs.
 
 ```mermaid
 flowchart LR
@@ -20,18 +25,43 @@ flowchart LR
   D --> F[Trace in<br/>Application Logs]
 ```
 
+### 2. Product Design Assistant - interactive in Joule
+
+The `@Product Design Assistant` is an *interactive* agent: you talk to it in **Joule** and drive every step of the conversation, keeping the human in the loop. This track covers two scopes:
+
+- **Product Structure Optimizer** - create and manage a Bill of Materials (BOM): extract a BOM from a file, run sanity checks, enrich it with predicted components and values, then summarize, explode, and delete it.
+- **Product Data Maintenance Agent** - create and maintain product master data in bulk: create products from an Excel file, extend them to a plant, classify them, search them by classification, and add translated descriptions.
+
+```mermaid
+flowchart LR
+  A[Upload file<br/>in Joule] --> B[Agent proposes<br/>a plan]
+  B --> C[You confirm<br/>each step]
+  C --> D[Agent writes<br/>back to the system]
+```
+
 ## Requirements
 
 The requirements to follow the exercises in this repository are:
 
 - A laptop with a current web browser.
+- Basic familiarity with SAP IBP (for the EMA track) or product master data concepts such as BOMs and classification (for the Product Design Assistant track).
+
+For the **Exception Management Agent (EMA)** track:
+
 - An SAP IBP user (PLANNER_XX) and system URL, provided by the session team. XX is the number on your desk card.
 - The agent instruction files for Exercises 3 and 4, provided on your desktop.
-- Basic familiarity with SAP IBP planner workspaces and key figures.
+
+For the **Product Design Assistant** track:
+
+- A Joule user (sarah.davisX@bestrunsap.com) and system URL, provided by the session team. X is the number on your desk card.
+- The `@Product Design Assistant` available when you start a new conversation in Joule.
+- The sample upload files referenced in each exercise (BOM file for the Product Structure Optimizer, Excel product file for the Product Data Maintenance Agent).
 
 <!-- TODO: replace "provided on your desktop" with a link to the files once they are in this repo (for example exercises/ex3/files/). -->
 
 ## Exercises
+
+The exercises are split into two independent tracks. Pick either one, or do both.
 
 ### Exception Management Agent (EMA, system-triggered in SAP IBP)
 
@@ -65,10 +95,6 @@ These exercises show how to work with the `@Product Design Assistant` in Joule. 
 - [Exercise 2 - Extend products to a plant and classify them](exercises/pdm/ex2/)
 - [Exercise 3 - Search by classification and add German descriptions](exercises/pdm/ex3/)
 
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder.
-
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
 
@@ -81,4 +107,4 @@ Support for the content in this repository is available during the actual time o
 
 ## License
 <!-- TODO: replace <your-project> with the repository name (twice). -->
-Copyright (2026-)2026 SAP SE or an SAP affiliate company and <your-project> contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/<your-project>).
+Copyright (2026-)2026 SAP SE or an SAP affiliate company and <your-project> contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP-samples/teched2026-AS262).
