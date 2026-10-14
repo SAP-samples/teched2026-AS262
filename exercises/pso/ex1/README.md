@@ -13,8 +13,9 @@ After completing these steps you will have created a BOM from an uploaded file a
 3. Type `@Product Design Assistant` and select the **Product Design Assistant** from the suggestions so that it is added as a tag.
 4. With the tag in place, enter your prompt: `Can you create a BOM?`
 5. The agent displays **3 different options** for creating a BOM. Choose **Upload a file**.
-6. **Drop the file** into the drop area.
-   <!-- TODO: confirm the file name and format of the sample BOM file provided for the session. -->
+6. **Drop the file** into the drop area. Use the predefined BOM file from the [`upload-data`](./upload-data/) folder that matches **your desk card number**. The files are named `Pump_assembly_Chemical - PCE Version 2 - 10xx.xlsx`, where `xx` is replaced by your desk card number. For example, if your desk card number is **07**, select `Pump_assembly_Chemical - PCE Version 2 - 1007.xlsx`.
+   > [!IMPORTANT]
+   > Make sure you use the file that matches your own desk card number so that each attendee creates a BOM with a unique header material (`PMP-10xx`).
 7. Press the button with the **send** icon to submit the file content to the agent.
 8. The agent displays the **extracted BOM data** and a quick reply to trigger the BOM creation. Choose the quick reply **Proceed to create BOM**.
 

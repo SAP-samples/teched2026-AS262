@@ -25,8 +25,7 @@ Before you start, make sure that:
 
 - **Joule** is enabled and reachable for your user.
 - The `@Product Design Assistant` is available when you start a new conversation.
-- You have the sample BOM file to upload in Exercise 1.
-  <!-- TODO: confirm the exact file name, format (for example .xlsx, .csv or .pdf) and where participants find it, then link it from exercises/pso/ex1/files/. -->
+- You have the sample BOM file to upload in Exercise 1. Each participant uses a **predefined BOM file** from the [`upload-data`](../ex1/upload-data/) folder, named `Pump_assembly_Chemical - PCE Version 2 - 10xx.xlsx`. Replace `xx` with **your desk card number** to pick your file (for example, desk card `07` → `Pump_assembly_Chemical - PCE Version 2 - 1007.xlsx`). This gives each attendee a BOM with a unique header material (`PMP-10xx`).
 
 > [!IMPORTANT]
 > During the hands-on session, only create, change or delete the BOM that you create yourself. Do not touch BOMs created by other participants.
