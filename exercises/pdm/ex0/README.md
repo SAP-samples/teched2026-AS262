@@ -29,7 +29,7 @@ Before you start, make sure that:
 
 - **Joule** is enabled and reachable for your user.
 - The `@Product Design Assistant` is available when you start a new conversation.
-- The sample Excel product file [`turbine_assembly_products.xlsx`](../ex1/turbine_assembly_products.xlsx) is available in the Exercise 1 folder. You upload it in Exercise 1 as-is; no changes are needed.
+- The sample Excel product file [`pump_tech_data_products.xlsx`](../ex1/pump_tech_data_products.xlsx) is available in the Exercise 1 folder. You upload it in Exercise 1 as-is; no changes are needed.
 - The classification class **PUMP_TECH_DATA** and its characteristics (for example PUMP_TYPE and HOUSING_MATERIAL) exist in the system.
 - Plant **001** is available for product extension.
 
