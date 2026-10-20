@@ -33,12 +33,12 @@ Before you start, make sure that:
 
 ## Scenario
 
-You are a product designer. Instead of assembling a Bill of Materials by hand, you let the Product Structure Optimizer Agent do the heavy lifting: it reads a file, extracts the BOM, checks it for gaps, proposes the missing components and values, and applies your changes with a proper change number. You stay in control: the agent proposes, you decide, and destructive actions such as deletion require your explicit confirmation.
+You are a product designer. Instead of assembling a Bill of Materials by hand, you let the Product Structure Optimizer Agent do the heavy lifting: it reads a file, extracts the BOM, checks it for gaps, proposes the missing components and values, and applies your changes. You stay in control: the agent proposes, you decide, and destructive actions such as deletion require your explicit confirmation.
 
 ```mermaid
 flowchart LR
   A[Create BOM<br/>from a file] --> B[Sanity checks<br/>predict components and values]
-  B --> C[Add missing components<br/>with change number]
+  B --> C[Add missing<br/>components]
   C --> D[Summarize and<br/>explode BOM]
   D --> E[Delete BOM<br/>human in the loop]
 ```

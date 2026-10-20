@@ -1,6 +1,6 @@
 # Exercise 2 - Run sanity checks and enrich the BOM
 
-In this exercise, you will let the agent check the BOM for gaps, predict the missing components and their values, and add them to the BOM with a change number.
+In this exercise, you will let the agent check the BOM for gaps, predict the missing components and their values, and add them to the BOM.
 
 The suggested starting point for this exercise is the end of Exercise 1, with your BOM created and the agent showing options for next steps.
 
@@ -20,19 +20,16 @@ After completing these steps you will have seen the agent's proposals for the co
 > [!NOTE]
 > **Why it matters:** Sanity checks turn an incomplete BOM into a complete one. The agent predicts what is missing and what values fit, but the proposals stay proposals until you choose to apply them in the next step.
 
-## Exercise 2.2: Add the missing components with a change number
+## Exercise 2.2: Add the missing components
 
-After completing these steps you will have added the proposed components to your BOM under a proper change number.
+After completing these steps you will have added the proposed components to your BOM.
 
-1. From the options for using the proposed components and values, choose the quick reply **Add missing components**.
-2. The agent displays options for adding the missing components to the BOM. Choose the quick reply **Edit with change number**.
-3. The agent asks for the **change number** to be used. Enter the change number.
-   <!-- TODO: confirm the change number to use in the session; the test script uses the placeholder xyz. -->
+1. From the options for using the proposed components and values, add the missing components. If a quick reply such as **Add missing components** is available, choose it; otherwise type the prompt `Add the missing components to the BOM`.
 
 **Expected result:** The agent displays a **success message** with details about the **added BOM component data**, an **updated BOM summary**, and **options for next steps**.
 
 > [!NOTE]
-> **Why it matters:** Changes to a BOM are tracked against a change number, so every edit is traceable. The agent applies your proposals only after you provide a valid change number.
+> **Why it matters:** The agent applies your proposals only after you choose to add them, so the predicted components and values stay proposals until you decide to write them to the BOM.
 
 ## Summary
 
