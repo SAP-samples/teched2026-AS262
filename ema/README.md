@@ -58,8 +58,11 @@ The planner's role changes from finding the problem to judging the proposed answ
 A planning agent is only useful if planners can trust its numbers. EMA is designed around one rule: **the numbers come from deterministic code, and the language model only explains them.**
 
 The work is split between design time, which happens once per set of instructions, and runtime, which happens for every alert.
+
+
 ![The EMA trust model: design time and runtime](images/tm.jpg)
 Each stage adds one guarantee:
+
 
 | Stage | Guarantee |
 | --- | --- |
