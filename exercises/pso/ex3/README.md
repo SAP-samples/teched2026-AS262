@@ -10,10 +10,11 @@ After completing these steps you will have seen a summary of your BOM and its ex
 
 <!-- TODO: confirm the exact wording of the quick replies, and add screenshots to exercises/pso/ex3/images/. -->
 
-1. From the next-step options, choose the quick reply **Summarize this BOM**.
+1. From the next-step options, choose the quick reply **Summarize this BOM**, or type the prompt `Summarize this BOM`.
 2. The agent displays a **summary of BOM header and component data** and options for next steps.
-3. Choose the quick reply **Explode BOM**.
-4. The agent displays the **exploded BOM** and options for next steps.
+3. Choose the quick reply **Explode BOM**, or type the prompt `Explode BOM`.
+4. The agent shows the **explosion parameters** that will be used. Type the prompt `proceed` to run the BOM explosion.
+5. The agent displays the **exploded BOM** and options for next steps.
 
 **Expected result:** The agent shows the BOM header and component summary, and then the fully exploded BOM structure, each with options for next steps.
 
