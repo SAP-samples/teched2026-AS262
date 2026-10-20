@@ -41,7 +41,7 @@ EMA follows the customer's own procedure for every alert, so that the planner st
 | Planner feedback | Planners rate each proposal with a thumbs up or thumbs down, which helps improve future proposals. |
 | Traceability | Every run is logged in the SAP IBP application logs, step by step. |
 
-## Use case: a capacity overload
+## An example use case: a capacity overload
 
 A supply planner has a Capacity Overload alert defined as *Capacity Consumption (%) greater than 100* over a 12-week horizon. The alert fires on an assembly resource in calendar week 36.
 
@@ -58,24 +58,7 @@ The planner's role changes from finding the problem to judging the proposed answ
 A planning agent is only useful if planners can trust its numbers. EMA is designed around one rule: **the numbers come from deterministic code, and the language model only explains them.**
 
 The work is split between design time, which happens once per set of instructions, and runtime, which happens for every alert.
-
-```mermaid
-flowchart TB
-  subgraph DT["Design time: once per instruction set, in Manage AI Agents"]
-    direction LR
-    W["Instruction Wizard<br/>closed grammar"] --> J["DSL JSON<br/>schema checked, scanned"]
-    J --> G["ABAP generator<br/>generated once"]
-    G --> V["Validate<br/>smoke test on real data"]
-  end
-  subgraph RT["Runtime: every alert, via the job scheduler"]
-    direction LR
-    A["Application job<br/>ABAP authorizations"] --> C["ABAP computes<br/>same input, same result"]
-    C --> L["LLM explains<br/>numbers in, text out"]
-    L --> P["Planner decides<br/>in Planner Workspace"]
-  end
-  G -. "generated code runs on every alert" .-> C
-```
-
+[Trust Model](images/tm.jpg)
 Each stage adds one guarantee:
 
 | Stage | Guarantee |
@@ -124,18 +107,6 @@ Each stage builds on the one before it, and each moves to the next only when the
 | In design | **Root-cause clustering** | Groups alerts that share a root cause, and produces one root-cause analysis per cluster instead of one per alert. |
 | Exploratory | **Write-back to a scenario** | The agent writes its proposals into a single planning scenario, resolving root causes before their downstream effects. |
 
-### Planning Assistant agents for SAP IBP
-
-EMA is one of a family of planning agents for SAP IBP.
-
-| Quarter | Agents |
-| --- | --- |
-| Q3 2026 | Planning Assistant · Inventory Investment Allocation Agent · Exception Management Agent |
-| Q4 2026 | Sustainability: Footprint Optimization Agent · Exception Management Agent Extensions |
-| Q1 2027 | Supply Plan Explainability Agent · Inventory Plan Explainability Agent · Time Series Fulfillment Automation Agent · Real-Time Integration Monitoring Agent · Planning Assistant extensions |
-| Q2 2027 | Lead Time Intelligence Agent · Campaign Planning Agent (IBP + PPO Optimizer) · Forecasting NPI (PLM) Monitoring Agent · Forecast Change Explainability Agent |
-| Q3 2027 | Planner Workspace Configuration Agent · Automation for NPI Data Intake Agent |
-
 ## Frequently asked questions
 
 **Does the language model calculate the numbers in an insight?**
@@ -158,7 +129,7 @@ Every insight comes with an execution trace, and every run is logged in the appl
 - Domnic Savio Benedict, Lead Architect, Exception Management Agent, SAP IBP
 - Sandro Schiefner, Developer, Exception Management Agent, SAP IBP
 
-<!-- TODO: add links to the SAP Help Portal documentation and the SAP Road Map Explorer entry once available. -->
+### [SAP Help](https://help.sap.com/docs/AUTONOMOUS_SCM_DOMAIN/5fefd1d4a6e1430d83f324708220e909/00b81afc7e80405e824d409985a6b83e.html)
 
 ---
 
