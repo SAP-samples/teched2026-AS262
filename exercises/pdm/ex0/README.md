@@ -11,13 +11,11 @@ Over three exercises you discover what the agent can do, create products from an
 
 ## Session details
 
-<!-- TODO: fill in the room. -->
-
 | Item | Value |
 | --- | --- |
 | Event | SAP TechEd Berlin 2026, hands-on workshop |
 | Session | AS262 - Explore autonomous product design and supply chain planning |
-| Date and room | Wednesday, Oct 28, 3:30 PM - 5:30 PM CET (room: TBD) |
+| Date and room | Wednesday, Oct 28, 3:30 PM - 5:30 PM CET (room: 604, Hall 6.2) |
 | System | Joule (URL: https://747276031.eu10.sapdas.cloud.sap/) |
 | Your user | sarah.davisX@bestrunsap.com, where X is the number on your desk card |
 | Assistant | `@Product Design Assistant` (Product Data Maintenance Agent) in Joule |
