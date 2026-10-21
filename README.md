@@ -18,8 +18,8 @@ EMA is presented as a live demo in this session. For the concept, architecture, 
 
 The `@Product Design Assistant` is an *interactive* agent: you talk to it in **Joule** and drive every step of the conversation, keeping the human in the loop. The hands-on exercises cover two scopes:
 
-- **Product Structure Optimizer** - create and manage a Bill of Materials (BOM): extract a BOM from a file, run sanity checks, enrich it with predicted components and values, then summarize, explode, and delete it.
 - **Product Data Maintenance Agent** - create and maintain product master data in bulk: create products from an Excel file, extend them to a plant, classify them, search them by classification, and add translated descriptions.
+- **Product Structure Optimizer** - create and manage a Bill of Materials (BOM): extract a BOM from a file, run sanity checks, enrich it with predicted components and values, then summarize, explode, and delete it.
 
 ```mermaid
 flowchart LR
@@ -53,19 +53,19 @@ There are no hands-on exercises for EMA. See the [Exception Management Agent ove
 
 These exercises show how to work with the `@Product Design Assistant` in Joule.
 
-**Product Structure Optimizer**
-
-- [Getting Started - Product Structure Optimizer Agent](exercises/pso/ex0/README.md)
-- [Exercise 1 - Create a BOM from a file](exercises/pso/ex1/README.md)
-- [Exercise 2 - Run sanity checks and enrich the BOM](exercises/pso/ex2/README.md)
-- [Exercise 3 - Summarize, explode, and delete the BOM](exercises/pso/ex3/README.md)
-
 **Product Data Maintenance Agent**
 
 - [Getting Started - Product Data Maintenance Agent](exercises/pdm/ex0/README.md)
 - [Exercise 1 - Discover capabilities and create products from a file](exercises/pdm/ex1/README.md)
 - [Exercise 2 - Extend products to a plant and classify them](exercises/pdm/ex2/README.md)
 - [Exercise 3 - Search by classification and add German descriptions](exercises/pdm/ex3/README.md)
+
+**Product Structure Optimizer**
+
+- [Getting Started - Product Structure Optimizer Agent](exercises/pso/ex0/README.md)
+- [Exercise 1 - Create a BOM from a file](exercises/pso/ex1/README.md)
+- [Exercise 2 - Run sanity checks and enrich the BOM](exercises/pso/ex2/README.md)
+- [Exercise 3 - Summarize, explode, and delete the BOM](exercises/pso/ex3/README.md)
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
