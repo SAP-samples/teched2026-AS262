@@ -1,5 +1,7 @@
 # AS262 - Explore autonomous product design and supply chain planning
 
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2026-AS262)](https://api.reuse.software/info/github.com/SAP-samples/teched2026-AS262)
+
 `Hands-on workshop`
 
 ## Description
